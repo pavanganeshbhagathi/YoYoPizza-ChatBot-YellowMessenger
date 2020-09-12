@@ -189,7 +189,7 @@ How to train boat and developement
 
 
 <h3>index.js</h3>
-
+<p>
 'use strict';
  
 const functions = require('firebase-functions');
@@ -278,7 +278,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 
 
 
-
+</p>
 
 <h3>package.json</h3>
 {
