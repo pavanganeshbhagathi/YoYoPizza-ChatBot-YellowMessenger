@@ -46,9 +46,10 @@ https://bot.dialogflow.com/bca4bf91-e57d-4af7-be6d-f0739d77c01d
 <h1>Steps to use YoYoPizza ChatBot</h1>
 
 <h4>STEP 1: Start our bot saying Hi or Helloo..</h4>
-<img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat1.png" height=210 width=380>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat1.png" height=210 width=380>
 
 <h4>STEP 2: You can choose the type your favourite Pizza (Veg or Non-Veg)</h4>
+
 <img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat2.jpg" height=340 width=380>
 
 <h4>STEP 3: You can pick now based on your favourite Pizza (Paneer Pizza/ Chicken Pizza/ Corn Pizza/ BBQ Chicken Pizza..)</h4>
