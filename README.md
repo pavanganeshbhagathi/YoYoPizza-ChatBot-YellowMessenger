@@ -97,7 +97,7 @@ Data is stored as JSON and synchronized in realtime to every connected client.
 
 ============================================================================
 
-<H1>Development</H1>
+<H1>Development :</H1>
 <h2>
 How to train boat and debelopement 
 </h2>
@@ -105,6 +105,18 @@ How to train boat and debelopement
 <h4>yoyo welcome</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/yoyowelcome.png">
 <h4>Description</h4>
-<h5>step 1:</h5>
-<h5>step 2:</h5>
-<h5>step 3:</h5>
+<h5>step 1 :</h5>
+<h5>step 2 :</h5>
+<h5>step 3 :</h5>
+
+
+<h4>yoyo start</h4>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/yoyostart.png">
+<h4>Description</h4>
+<h5>step 1 :</h5>
+<h5>step 2 :</h5>
+<h5>step 3 :</h5>
+<h5>step 4 :</h5>
+
+
+
