@@ -88,6 +88,6 @@ The Firebase Realtime Database is a cloud-hosted database.
 All the orders of YoYo Pizza are sent to Firebase.
 Data is stored as JSON and synchronized in realtime to every connected client. 
 </h2>
-<img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/firebase.png">
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/firebase.png">
 
 
