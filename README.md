@@ -97,10 +97,20 @@ Data is stored as JSON and synchronized in realtime to every connected client.
 
 ============================================================================
 
-<H1>Development :</H1>
+<H1>Development</H1>
 <h2>
-How to train boat and debelopement 
+How to train boat and developement 
 </h2>
+
+<h4>Entities</h4>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/ENTITIES.png">
+<h4>Description</h4>
+<h5>step 1 :</h5>
+<h5>step 2 :</h5>
+<h5>step 3 :</h5>
+<h5>step 4 :</h5>
+
+
 
 <h4>yoyo welcome</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/yoyowelcome.png">
@@ -142,7 +152,7 @@ How to train boat and debelopement
 
 
 <h4>yoyo pizzatopping</h4>
-<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/yoyostart.png">
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/yoyopizzatopping.png">
 <h4>Description</h4>
 <h5>step 1 :</h5>
 <h5>step 2 :</h5>
@@ -157,6 +167,24 @@ How to train boat and debelopement
 <h5>step 2 :</h5>
 <h5>step 3 :</h5>
 <h5>step 4 :</h5>
+
+
+<h4>Default Welcome</h4>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/defaultwelocme.png">
+<h4>Description</h4>
+<h5>step 1 :</h5>
+<h5>step 2 :</h5>
+<h5>step 3 :</h5>
+<h5>step 4 :</h5>
+
+
+<h4>Default fallback</h4>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/tree/master/Document%20Images/Entity/defaultfallback">
+<h4>Description</h4>
+<h5>step 1 :</h5>
+<h5>step 2 :</h5>
+
+
 
 
 
