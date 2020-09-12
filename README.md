@@ -120,3 +120,43 @@ How to train boat and debelopement
 
 
 
+
+
+<h4>yoyo pizzaname</h4>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/yoyopizzaname.png">
+<h4>Description</h4>
+<h5>step 1 :</h5>
+<h5>step 2 :</h5>
+<h5>step 3 :</h5>
+<h5>step 4 :</h5>
+
+
+<h4>yoyo pizzasize</h4>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/pizzasize.png">
+<h4>Description</h4>
+<h5>step 1 :</h5>
+<h5>step 2 :</h5>
+<h5>step 3 :</h5>
+<h5>step 4 :</h5>
+
+
+
+<h4>yoyo pizzatopping</h4>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/yoyostart.png">
+<h4>Description</h4>
+<h5>step 1 :</h5>
+<h5>step 2 :</h5>
+<h5>step 3 :</h5>
+<h5>step 4 :</h5>
+
+
+<h4>yoyo customerdeatils</h4>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/customerdeatils.png">
+<h4>Description</h4>
+<h5>step 1 :</h5>
+<h5>step 2 :</h5>
+<h5>step 3 :</h5>
+<h5>step 4 :</h5>
+
+
+
