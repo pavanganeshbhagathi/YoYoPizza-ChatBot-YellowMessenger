@@ -197,7 +197,7 @@ please refer this documentation to understand more about Fulfillment : https://c
 <h5>step 1 :</h5> The input gathered in yoyo-welcome will be input here !
 <h5>step 2 :</h5> This is a 2nd training phase i.e., we must train the chatbot with questions and responses ( here in this intent we train the bot to ask a question like if the user wants veg pizza or non veg pizza )
 <h5>step 3 :</h5> The input gathered from user will act as response to the next intent ( yoyo-pizzaname )
-<h5>step 4 :</h5> The input gathered from user will be checked if the response contains any of options listed in entities ( for eg : @pizzatype contains veg and non veg , the user must select either one of them else defaultFallback will be trigerred )
+<h5>step 4 :</h5> The input gathered from user will be checked if the response contains any of options listed in entities ( for eg : @pizzatype contains veg and non veg , the user must select either one of them else defaultFallback will be triggered )
 
 
 
@@ -208,7 +208,7 @@ please refer this documentation to understand more about Fulfillment : https://c
 <h4>Description</h4>
 <h5>step 1 :</h5> we get response from the input gathered i.e., if the user enters "veg" we get only veg pizzas
 <h5>step 2 :</h5> This is a 3rd training phase i.e., we must train chatbot what questions to ask at this stage
-<h5>step 3 :</h5> The input gathered from user will be checked if the response contains any of options listed in entities ( for eg : @pizzaname contains different pizzas and the user must select either one of them else defaultFallback will be trigerred )
+<h5>step 3 :</h5> The input gathered from user will be checked if the response contains any of options listed in entities ( for eg : @pizzaname contains different pizzas and the user must select either one of them else defaultFallback will be triggered )
 <h5>step 4 :</h5> The input gathered from user will act as response to the next intent ( yoyo-pizzasize )
 
 
@@ -217,7 +217,7 @@ please refer this documentation to understand more about Fulfillment : https://c
 <h4>Description</h4>
 <h5>step 1 :</h5> we have 4 different sizes created in our entity ( pizza-size )
 <h5>step 2 :</h5> the chatbot must be trained with these sizes i.e., we are in 4th training phase
-<h5>step 3 :</h5> Here we will get the response from the user  will be checked if the response contains any of options listed in entities ( for eg : @pizzasize contains different pizza sizes and the user must select either one of them else defaultFallback will be trigerred )
+<h5>step 3 :</h5> Here we will get the response from the user  will be checked if the response contains any of options listed in entities ( for eg : @pizzasize contains different pizza sizes and the user must select either one of them else defaultFallback will be triggered )
 <h5>step 4 :</h5> The input gathered from user will act as response to the next intent ( yoyo-pizzatopping )
 
 
@@ -387,6 +387,6 @@ please refer this documentation to understand more about Fulfillment : https://c
 
 <p><h4>Thanks & Regards</h4></p>
 <p>pavan ganesh bhagathi,</p>
-<p>mail:pavanbhagathi@gmail.com</p>
+<p>mail:pavanbhagathi@gmail.com,</p>
 <p>+91 9848850889.</p>
 
