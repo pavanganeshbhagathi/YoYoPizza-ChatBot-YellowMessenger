@@ -312,8 +312,8 @@ How to train boat and developement
 
 
 
-Thanks & Regards,
-pavan ganesh bhagathi,
-mail:pavanbhagathi@gmail.com
-+91 9848850889.
+<h4>Thanks & Regards</h4>,
+<p>pavan ganesh bhagathi,</p>
+<p>mail:pavanbhagathi@gmail.com</p>
+<p>+91 9848850889.</p>
 
