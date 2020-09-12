@@ -250,7 +250,7 @@ How to train boat and developement
   <p>  });</p>
     
 <p>  }</p>
-<p>  //using order id we will track the order details from DB in this method !</p>
+<p> <h5> //using order id we will track the order details from DB in this method !</h5></p>
 <p>  function trackorderbyid(agent){</p>
  <p>   //getting order id from chatbot input i.e., input from user</p>
  <p>   const orderid = agent.parameters.orderid;</p>
@@ -269,7 +269,7 @@ How to train boat and developement
         
   <p>  });</p>
   }</p>
-<p>  //mapping fulfillment with intents</p>
+<p><h5>  //mapping fulfillment with intents</h5></p>
  <p> let intent = new Map();</p>
  <p> intent.set('Default Fallback Intent', defaultFallback);</p>
  <p> intent.set('yoyo-customerdetails', checkoutorder);</p>
@@ -281,28 +281,29 @@ How to train boat and developement
 </p>
 
 <h3>package.json</h3>
-{
-  "name": "dialogflowFirebaseFulfillment",
-  "description": "This is the default fulfillment for a Dialogflow agents using Cloud Functions for Firebase",
-  "version": "0.0.1",
-  "private": true,
-  "license": "Apache Version 2.0",
-  "author": "Google Inc.",
-  "engines": {
-    "node": "10"
-  },
-  "scripts": {
-    "start": "firebase serve --only functions:dialogflowFirebaseFulfillment",
-    "deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"
-  },
-  "dependencies": {
-    "actions-on-google": "^2.2.0",
-    "firebase-admin": "^5.13.1",
-    "firebase-functions": "^2.0.2",
-    "dialogflow": "^0.6.0",
-    "dialogflow-fulfillment": "^0.5.0"
-  }
-}
+
+<p>{</p>
+  <p>"name": "dialogflowFirebaseFulfillment",</p>
+ <p> "description": "This is the default fulfillment for a Dialogflow agents using Cloud Functions for Firebase",</p>
+ <p> "version": "0.0.1",</p>
+ <p> "private": true,</p>
+ <p> "license": "Apache Version 2.0",</p>
+ <p> "author": "Google Inc.",</p>
+ <p> "engines": {</p>
+ <p>   "node": "10"</p>
+ <p> },</p>
+ <p> "scripts": {</p>
+  <p>  "start": "firebase serve --only functions:dialogflowFirebaseFulfillment",</p>
+  <p>  "deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"</p>
+ <p> },</p>
+  <p>"dependencies": {</p>
+  <p>  "actions-on-google": "^2.2.0",</p>
+   <p> "firebase-admin": "^5.13.1",</p>
+   <p>"firebase-functions": "^2.0.2",</p>
+   <p> "dialogflow": "^0.6.0",</p>
+   <p> "dialogflow-fulfillment": "^0.5.0"</p>
+  <p>  }</p>
+ <p> }</p>
 
 
 
