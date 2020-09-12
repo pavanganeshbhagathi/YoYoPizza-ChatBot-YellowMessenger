@@ -1,0 +1,32 @@
+[
+  {
+    "value": "onion",
+    "synonyms": [
+      "onion"
+    ]
+  },
+  {
+    "value": "tomato",
+    "synonyms": [
+      "tomato"
+    ]
+  },
+  {
+    "value": "cheese",
+    "synonyms": [
+      "cheese"
+    ]
+  },
+  {
+    "value": "babycorn",
+    "synonyms": [
+      "babycorn"
+    ]
+  },
+  {
+    "value": "chicken",
+    "synonyms": [
+      "chicken"
+    ]
+  }
+]

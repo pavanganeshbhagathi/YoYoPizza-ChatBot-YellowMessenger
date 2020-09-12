@@ -1,0 +1,59 @@
+{
+  "id": "9c534ff9-d530-435e-a44a-670431ce9e02",
+  "name": "yoyo-start",
+  "auto": true,
+  "contexts": [
+    "yoyo-welcome"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "yoyo-start",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "306d1e89-c715-4948-8143-2c89a9dc85b3",
+          "name": "pizzatype",
+          "required": false,
+          "dataType": "@pizza-type",
+          "value": "$pizzatype",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great! we have  peppy panner,  mexican green wave, deluxe veggie, cheese n corn, chicken golden delight, and indi chicken tikka  pizza`s are available, Please choose any one 🍕",
+            "which pizza 🍕 ?  (peppy panner,  mexican green wave, deluxe veggie, cheese n corn, chicken golden delight, and indi chicken tikka)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

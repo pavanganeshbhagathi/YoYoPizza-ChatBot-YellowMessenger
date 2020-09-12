@@ -1,0 +1,49 @@
+{
+  "id": "7620b173-6fa6-4365-b872-219b158b1170",
+  "name": "yoyo-orderstatus",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "yoyo-orderstatus",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "58b7e630-dd3d-4b48-be19-c2381e618f13",
+          "name": "orderid",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$orderid",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your 🚛 Order Id :"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

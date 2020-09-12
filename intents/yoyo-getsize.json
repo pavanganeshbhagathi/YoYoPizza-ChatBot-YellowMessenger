@@ -1,0 +1,58 @@
+{
+  "id": "a0a48906-9b33-48b7-8996-83062287522b",
+  "name": "yoyo-getsize",
+  "auto": true,
+  "contexts": [
+    "yoyo-pizzaname"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "yoyo-getsize",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "88a1336a-76ed-4b58-a6e9-f7a5945b7714",
+          "name": "pizzasize",
+          "required": false,
+          "dataType": "@pizza-size",
+          "value": "$pizzasize",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Choose either one of these toppings : onion 🧅 , tomato 🍅  , cheese 🧀 , baby corn 🌽 , chunky chicken 🍗",
+            "Please choose your topping ( onion 🧅, tomato 🍅 , cheese 🧀, babycorn 🌽 , chunky chicken 🍗)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

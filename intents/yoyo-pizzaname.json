@@ -1,0 +1,58 @@
+{
+  "id": "7dc26be6-0a5d-45d3-98fc-4d71b2c2e5dd",
+  "name": "yoyo-pizzaname",
+  "auto": true,
+  "contexts": [
+    "yoyo-start"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "yoyo-pizzaname",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cb078318-646a-44b8-9ce8-2caffa967d11",
+          "name": "yoyo-pizzaname",
+          "required": false,
+          "dataType": "@yoyo-pizzaname",
+          "value": "$yoyo-pizzaname",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great! we have  small,  medium, large, ex-large sized pizza`s, Please choose any one 🍕",
+            "How large 🍕 ? (small, medium, large, ex-large)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

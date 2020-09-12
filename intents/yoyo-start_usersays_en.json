@@ -1,0 +1,32 @@
+[
+  {
+    "id": "7b72704c-ab2c-45b6-bf8a-0b10c7440e97",
+    "data": [
+      {
+        "text": "non veg",
+        "meta": "@pizza-type",
+        "alias": "pizzatype",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dfd66460-365c-42b0-8809-4332b2e9f68a",
+    "data": [
+      {
+        "text": "veg",
+        "meta": "@pizza-type",
+        "alias": "pizzatype",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

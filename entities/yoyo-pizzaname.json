@@ -1,0 +1,9 @@
+{
+  "id": "cc7fb552-dab8-47f3-a809-10375676412e",
+  "name": "yoyo-pizzaname",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "eccef325-e2b5-4a28-8a31-7124951e491d",
+    "data": [
+      {
+        "text": "ex-large",
+        "meta": "@pizza-size",
+        "alias": "pizzasize",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f3453b14-1b5b-4062-89c1-b60d38b1cfcb",
+    "data": [
+      {
+        "text": "small",
+        "meta": "@pizza-size",
+        "alias": "pizzasize",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "477fc0df-3b23-479b-98c7-840739766cc1",
+    "data": [
+      {
+        "text": "medium",
+        "meta": "@pizza-size",
+        "alias": "pizzasize",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78ec9878-5b57-4b7e-b475-846d9c7a3084",
+    "data": [
+      {
+        "text": "large",
+        "meta": "@pizza-size",
+        "alias": "pizzasize",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "id": "b100825e-5b7e-4626-bbf6-96456ac576de",
+  "name": "yoyo-welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "yoyo-welcome",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hello 🙋🏻‍♂️this pavan your virtual assistant. what can I get  you(veg🥗 or non veg🥩)?.",
+            "Hello 🙋🏻‍♂️ we are from YoYo-Pizza, we have both veg 🥦🥬  and non veg 🍗🍖please type either one?."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

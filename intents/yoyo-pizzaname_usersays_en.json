@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ceb8357b-35ea-4b4e-86cf-48aa957cc9a2",
+    "data": [
+      {
+        "text": "indi chicken tikka",
+        "meta": "@yoyo-pizzaname",
+        "alias": "yoyo-pizzaname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "886fc7c5-aba3-4a0d-a2c1-d6998e7f7569",
+    "data": [
+      {
+        "text": "chicken golden delight",
+        "meta": "@yoyo-pizzaname",
+        "alias": "yoyo-pizzaname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "daad4400-841c-4baa-925c-dad78c1bc0a3",
+    "data": [
+      {
+        "text": "cheese n corn",
+        "meta": "@yoyo-pizzaname",
+        "alias": "yoyo-pizzaname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "431d2b44-991b-4895-b6f0-ab0804a4a66f",
+    "data": [
+      {
+        "text": "deluxe veggie",
+        "meta": "@yoyo-pizzaname",
+        "alias": "yoyo-pizzaname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "11e1bed8-93ef-4af3-a84e-88d8ab3bda04",
+    "data": [
+      {
+        "text": "mexican green wave",
+        "meta": "@yoyo-pizzaname",
+        "alias": "yoyo-pizzaname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "da70352d-553c-4b54-a240-4e51049b31f3",
+    "data": [
+      {
+        "text": "peppy panner",
+        "meta": "@yoyo-pizzaname",
+        "alias": "yoyo-pizzaname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,161 @@
+{
+  "id": "5a649fac-bfb9-409c-9e5e-b28bc1445e46",
+  "name": "yoyo-customerdetails",
+  "auto": true,
+  "contexts": [
+    "yoyo-gettoppings"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "yoyo-customerdetails",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c94ed179-81a3-4a9d-95ba-9bed23cbd63d",
+          "name": "name",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Almost there , please enter your 👤 Name :"
+            },
+            {
+              "lang": "en",
+              "value": "Almost there , please enter your 👤 Name :"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "162e8d0f-61cc-4486-a539-078910559bd4",
+          "name": "phoneno",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$phoneno",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your 📱Mobile Number :"
+            },
+            {
+              "lang": "en",
+              "value": "Please enter your 📱Mobile Number :"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e4cb35d5-ca72-4ac2-851e-c9aa0ff07f64",
+          "name": "address",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$address",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your 🏡 Delivery Address :"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b4e79a7e-be95-4efe-9ba5-ee7a9cdc3f2c",
+          "name": "yoyotype",
+          "required": false,
+          "dataType": "@pizza-type",
+          "value": "#yoyo-start.pizzatype",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "79612f7f-7898-4221-9969-a18c882c930f",
+          "name": "yoyosize",
+          "required": false,
+          "dataType": "@pizza-size",
+          "value": "#yoyo-getsize.pizzasize",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7278f48c-8f59-4056-82ce-c0a8aedcb59f",
+          "name": "yoyotoppings",
+          "required": false,
+          "dataType": "@pizza-crust",
+          "value": "#yoyo-gettoppings.pizzacrust",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "55bd3280-26d7-4eac-b655-0921f4cc1c81",
+          "name": "yoyopizzaname",
+          "required": false,
+          "dataType": "@yoyo-pizzaname",
+          "value": "#yoyo-pizzaname.yoyo-pizzaname",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

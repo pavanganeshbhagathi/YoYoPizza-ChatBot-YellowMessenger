@@ -1,0 +1,75 @@
+[
+  {
+    "id": "48bd0285-2e72-4690-876c-a53469d94294",
+    "data": [
+      {
+        "text": "chunky chicken",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fa98edd1-3080-4b20-aa9d-8118226e64f8",
+    "data": [
+      {
+        "text": "babycorn",
+        "meta": "@pizza-crust",
+        "alias": "pizzacrust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d862997f-82cb-46ca-8e29-b709ef6479b9",
+    "data": [
+      {
+        "text": "cheese",
+        "meta": "@pizza-crust",
+        "alias": "pizzacrust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "832e4286-d36a-4157-aa5e-8ab63c5f6e10",
+    "data": [
+      {
+        "text": "tomato",
+        "meta": "@pizza-crust",
+        "alias": "pizzacrust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9b6c8d0c-e456-43d5-acb7-f1fdb4cb6893",
+    "data": [
+      {
+        "text": "onion",
+        "meta": "@pizza-crust",
+        "alias": "pizzacrust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
