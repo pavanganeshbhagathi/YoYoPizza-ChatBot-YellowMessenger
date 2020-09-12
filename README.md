@@ -190,17 +190,18 @@ How to train boat and developement
 
 <h3>index.js</h3>
 <p>
+	
 'use strict';
  
-const functions = require('firebase-functions');
-const admin = require('firebase-admin');
-const {WebhookClient} = require('dialogflow-fulfillment');
-const {Card, Suggestion} = require('dialogflow-fulfillment');
-//yoyo-pizza-hbfk.firebaseio.com --> database url ! we can use "https" for accessing our DB but here we use "ws" 
-admin.initializeApp({
-	credential: admin.credential.applicationDefault(),
-  	databaseURL: 'ws://yoyo-pizza-hbfk.firebaseio.com/'
-});
+<p>const functions = require('firebase-functions');</p>
+<p>const admin = require('firebase-admin');</p>
+<p>const {WebhookClient} = require('dialogflow-fulfillment');</p>
+<p>const {Card, Suggestion} = require('dialogflow-fulfillment');</p>
+<p>//yoyo-pizza-hbfk.firebaseio.com --> database url ! we can use "https" for accessing our DB but here we use "ws" </p>
+<p>admin.initializeApp({</p>
+<p>	credential: admin.credential.applicationDefault(),</p>
+ <p> 	databaseURL: 'ws://yoyo-pizza-hbfk.firebaseio.com/'</p>
+<p>});</p>
  
 process.env.DEBUG = 'dialogflow:debug';  
 exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, response) => {
