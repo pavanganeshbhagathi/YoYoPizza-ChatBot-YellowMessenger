@@ -170,6 +170,7 @@ How to train boat and developement
 
 
 <h4>Default Welcome</h4>
+
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/defaultwelocme.png">
 <h4>Description</h4>
 <h5>step 1 :</h5>
@@ -178,12 +179,16 @@ How to train boat and developement
 <h5>step 4 :</h5>
 
 
+
+
 <h4>Default fallback</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/defaultfallback/defaultfallback.png">
 <h4>Description</h4>
 <h5>step 1 :</h5>
 <h5>step 2 :</h5>
 
+
+<h3>
 
 
 
