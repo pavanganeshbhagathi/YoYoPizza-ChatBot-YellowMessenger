@@ -97,6 +97,9 @@ Data is stored as JSON and synchronized in realtime to every connected client.
 How to train boat and debelopement 
 </h2>
 
-<h5>step 1: yoyo welcome</h5>
+<h4>yoyo welcome</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/yoyowelcome.png">
 
+<h5>step 1:</h5>
+<h5>step 2:</h5>
+<h5>step 3:</h5>
