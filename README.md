@@ -197,7 +197,7 @@ How to train boat and developement
 <p>const admin = require('firebase-admin');</p>
 <p>const {WebhookClient} = require('dialogflow-fulfillment');</p>
 <p>const {Card, Suggestion} = require('dialogflow-fulfillment');</p>
-<p>//yoyo-pizza-hbfk.firebaseio.com --> database url ! we can use "https" for accessing our DB but here we use "ws" </p>
+<p><h5>//yoyo-pizza-hbfk.firebaseio.com --> database url ! we can use "https" for accessing our DB but here we use "ws"</h5> </p>
 <p>admin.initializeApp({</p>
 <p>	credential: admin.credential.applicationDefault(),</p>
  <p> 	databaseURL: 'ws://yoyo-pizza-hbfk.firebaseio.com/'</p>
@@ -215,20 +215,20 @@ How to train boat and developement
  <p>   agent.add(`Welcome to Yoyo Pizza!`);</p>
 <p>  }</p>
  
-  <p>//this method is called when the chatbot doesnt understand our response</p>
+  <p><h5>//this method is called when the chatbot doesnt understand our response</h5></p>
   <p>function defaultFallback(agent) {</p>
     <p>agent.add(`Sorry , I didn't understand ðŸ¤·ðŸ¼â€â™‚ï¸`);</p>
     <p>agent.add(`Something wrong with your query , can you please try again? ðŸ¤·ðŸ¼â€â™‚ï¸`);</p>
   <p>}</p>
   
-<p>  //details gathered from chatbot will be updated into database</p>
+<p> <h5> //details gathered from chatbot will be updated into database</h5></p>
  <p> function checkoutorder(agent){</p>
    <p> const yoyotype = agent.parameters.yoyotype;</p>
    <p> const yoyosize = agent.parameters.yoyosize;</p>
    <p> const yoyotoppings = agent.parameters.yoyotoppings;</p>
    <p> const yoyopizzaname = agent.parameters.yoyopizzaname;</p>
     
-   <p> //generating a random 4 digit number that is used as order id</p>
+   <p> <h5>//generating a random 4 digit number that is used as order id</h5></p>
    <p> const orderid = Math.floor((Math.random() * 9999) + 1000);</p>
    
    <p> const yoyocustomername = agent.parameters.name;</p>
@@ -236,7 +236,7 @@ How to train boat and developement
    <p> const yoyocustomeraddress = agent.parameters.address;</p>
        
   <p>  agent.add(`${yoyocustomername} Here's Your order id ${orderid}. Inorder to check your order ðŸšš please enter "Order Status"`);  </p>
-   <p> //updating data into database</p>
+   <p><h5> //updating data into database</h5></p>
    <p> return admin.database().ref('data').set({</p>
    <p>   //the left fields must match database fields !</p>
     <p>  yoyo_type: yoyotype,</p>
