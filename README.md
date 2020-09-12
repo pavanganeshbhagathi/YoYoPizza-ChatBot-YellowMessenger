@@ -170,34 +170,34 @@ please refer this documentation to understand more about Fulfillment : https://c
 	
 	
 
-
+        :Entity
 
 <h4>Entities</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/ENTITIES.png">
 <h4>Description</h4>
-<h5>step 1 :</h5>
-<h5>step 2 :</h5>
-<h5>step 3 :</h5>
-<h5>step 4 :</h5>
+<h5>step 1 : </h5> First we must create a list of Entities as show in this picture we have created 4 entities
+<h5>step 2 : </h5> Each entity contains a list of responses
+<h5>step 3 : </h5> For example , the user enters cheese toppings in chatbot then this cheese keyword will be checked if it contains in our Entity
+<h5>step 4 : </h5> if cheese keyword is not present in our entity list then defaultFallback function gets called else we get the response related to this cheese toppings
 
 
-
+            :Intents
 
 <h4>yoyo welcome</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/yoyowelcome.png">
 <h4>Description</h4>
-<h5>step 1 :</h5>
-<h5>step 2 :</h5>
-<h5>step 3 :</h5>
+<h5>step 1 :</h5> Just like execution starts from main method in java , here the chatbot responses start from here ! 
+<h5>step 2 :</h5> This is a 1st training phase i.e., we must train the chatbot with questions and responses
+<h5>step 3 :</h5> The input gathered from user will act as response to the next intent ( yoyo-start )
 
 
 <h4>yoyo start</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/yoyostart.png">
 <h4>Description</h4>
-<h5>step 1 :</h5>
-<h5>step 2 :</h5>
-<h5>step 3 :</h5>
-<h5>step 4 :</h5>
+<h5>step 1 :</h5> The input gathered in yoyo-welcome will be input here !
+<h5>step 2 :</h5> This is a 2nd training phase i.e., we must train the chatbot with questions and responses ( here in this intent we train the bot to ask a question like if the user wants veg pizza or non veg pizza )
+<h5>step 3 :</h5> The input gathered from user will act as response to the next intent ( yoyo-pizzaname )
+<h5>step 4 :</h5> The input gathered from user will be checked if the response contains any of options listed in entities ( for eg : @pizzatype contains veg and non veg , the user must select either one of them else defaultFallback will be trigerred )
 
 
 
@@ -206,48 +206,50 @@ please refer this documentation to understand more about Fulfillment : https://c
 <h4>yoyo pizzaname</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/yoyopizzaname.png">
 <h4>Description</h4>
-<h5>step 1 :</h5>
-<h5>step 2 :</h5>
-<h5>step 3 :</h5>
-<h5>step 4 :</h5>
+<h5>step 1 :</h5> we get response from the input gathered i.e., if the user enters "veg" we get only veg pizzas
+<h5>step 2 :</h5> This is a 3rd training phase i.e., we must train chatbot what questions to ask at this stage
+<h5>step 3 :</h5> The input gathered from user will be checked if the response contains any of options listed in entities ( for eg : @pizzaname contains different pizzas and the user must select either one of them else defaultFallback will be trigerred )
+<h5>step 4 :</h5> The input gathered from user will act as response to the next intent ( yoyo-pizzasize )
 
 
 <h4>yoyo pizzasize</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/pizzasize.png">
 <h4>Description</h4>
-<h5>step 1 :</h5>
-<h5>step 2 :</h5>
-<h5>step 3 :</h5>
-<h5>step 4 :</h5>
+<h5>step 1 :</h5> we have 4 different sizes created in our entity ( pizza-size )
+<h5>step 2 :</h5> the chatbot must be trained with these sizes i.e., we are in 4th training phase
+<h5>step 3 :</h5> Here we will get the response from the user  will be checked if the response contains any of options listed in entities ( for eg : @pizzasize contains different pizza sizes and the user must select either one of them else defaultFallback will be trigerred )
+<h5>step 4 :</h5> The input gathered from user will act as response to the next intent ( yoyo-pizzatopping )
+
 
 
 
 <h4>yoyo pizzatopping</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/yoyopizzatopping.png">
 <h4>Description</h4>
-<h5>step 1 :</h5>
-<h5>step 2 :</h5>
-<h5>step 3 :</h5>
-<h5>step 4 :</h5>
+<h5>step 1 :</h5>  we have 5 different toppings created in our entity ( pizza-crust )
+<h5>step 2 :</h5> the chatbot must be trained with these toppings i.e., we are in 5th training phase
+<h5>step 3 :</h5> Here we will get the response from the user  will be checked if the response contains any of options listed in entities ( for eg : @pizzacrust contains different pizza toppings and the user must select either one of them else defaultFallback will be trigerred )
+<h5>step 4 :</h5> The input gathered from user will act as response to the next intent ( yoyo-customerdetails )
 
 
-<h4>yoyo customerdeatils</h4>
+<h4>yoyo customerdetails</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/customerdeatils.png">
 <h4>Description</h4>
-<h5>step 1 :</h5>
-<h5>step 2 :</h5>
-<h5>step 3 :</h5>
-<h5>step 4 :</h5>
-
-
+<h5>step 1 :</h5> We must enable web hooks i.e., we get callbacks from index.js
+<h5>step 2 :</h5> This is a final training phase i.e., we train the bot with few questions
+<h5>step 3 :</h5> Here we question the user with his details like name , mobile number , address and other details ! All these details will be sent to index.js through webhook
+<h5>step 4 :</h5> All these details sent to index.js will be sent to database !
+       
+                        :Default Intents
+			
 <h4>Default Welcome</h4>
 
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/defaultwelocme.png">
 <h4>Description</h4>
-<h5>step 1 :</h5>
-<h5>step 2 :</h5>
-<h5>step 3 :</h5>
-<h5>step 4 :</h5>
+<h5>step 1 :</h5> This is the welcome Intent i.e., here we put the greeting messages like "hello i am pavan from yoyo-pizza how can i help you ?"
+<h5>step 2 :</h5> This a default training phase provided by dialogflow i.e., the greeting messages will be trained here !
+<h5>step 3 :</h5> Response from user will trigger necessary intent !
+<h5>step 4 :</h5> If the response is not appropraite or not trained then it will trigger defaultFallback
 
 
 
@@ -255,8 +257,8 @@ please refer this documentation to understand more about Fulfillment : https://c
 <h4>Default fallback</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/defaultfallback/defaultfallback.png">
 <h4>Description</h4>
-<h5>step 1 :</h5>
-<h5>step 2 :</h5>
+<h5>step 1 :</h5> This will be called when the chatbot cant understand user query !
+<h5>step 2 :</h5> This will be called from index.js file !
 
 
 <h3>index.js</h3>
@@ -383,7 +385,7 @@ please refer this documentation to understand more about Fulfillment : https://c
 
 
 
-<p><h4>Thanks & Regards</h4>,</p>
+<p><h4>Thanks & Regards</h4></p>
 <p>pavan ganesh bhagathi,</p>
 <p>mail:pavanbhagathi@gmail.com</p>
 <p>+91 9848850889.</p>
