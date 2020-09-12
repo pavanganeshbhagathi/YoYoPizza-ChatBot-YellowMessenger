@@ -228,7 +228,7 @@ please refer this documentation to understand more about Fulfillment : https://c
 <h4>Description</h4>
 <h5>step 1 :</h5>  we have 5 different toppings created in our entity ( pizza-crust )
 <h5>step 2 :</h5> the chatbot must be trained with these toppings i.e., we are in 5th training phase
-<h5>step 3 :</h5> Here we will get the response from the user  will be checked if the response contains any of options listed in entities ( for eg : @pizzacrust contains different pizza toppings and the user must select either one of them else defaultFallback will be trigerred )
+<h5>step 3 :</h5> Here we will get the response from the user  will be checked if the response contains any of options listed in entities ( for eg : @pizzacrust contains different pizza toppings and the user must select either one of them else defaultFallback will be triggered )
 <h5>step 4 :</h5> The input gathered from user will act as response to the next intent ( yoyo-customerdetails )
 
 
