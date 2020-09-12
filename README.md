@@ -41,7 +41,7 @@ Pizza Ordering ChatBot using Dialogflow and Firebase. Using YoYoPizza ChatBot we
 https://bot.dialogflow.com/bca4bf91-e57d-4af7-be6d-f0739d77c01d
 
 <H1>ARCHITECTURE</H1>
-<img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/Architecture.png">
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/Architecture.png">
 
 <h1>Steps to use YoYoPizza ChatBot</h1>
 
