@@ -97,10 +97,29 @@ Data is stored as JSON and synchronized in realtime to every connected client.
 
 ============================================================================
 
-<H1>Development</H1>
+<h1>Documentations<h1>
+	
 <h2>
-How to train boat and developement 
+how to train agent using dialogflow(google cloud)
 </h2>
+	
+	
+<h3>Dialogflow<h3>
+<p>Dialogflow is a natural language understanding platform that makes it easy to design and integrate a conversational user interface into your mobile app, web application, device, bot, interactive voice response system, and so on. Using Dialogflow, you can provide new and engaging ways for users to interact with your product.
+
+Dialogflow can analyze multiple types of input from your customers, including text or audio inputs (like from a phone or voice recording). It can also respond to your customers in a couple of ways, either through text or with synthetic speech.
+
+Please refer this documentation : https://cloud.google.com/dialogflow/docs<p>
+	
+	
+	
+	:Entity
+	:Intent
+	:fullfillment              
+	
+	
+
+
 
 <h4>Entities</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/ENTITIES.png">
