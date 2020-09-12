@@ -82,6 +82,9 @@ https://bot.dialogflow.com/bca4bf91-e57d-4af7-be6d-f0739d77c01d
 <h4>STEP 12: Enter the correct Order Number to check the status.</h4>
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat12.png" height=340 width=380>
 
+
+============================================================================
+
 <H1>FIREBASE REALTIME DATABASE</H1>
 <h2>
 The Firebase Realtime Database is a cloud-hosted database. 
@@ -91,6 +94,8 @@ Data is stored as JSON and synchronized in realtime to every connected client.
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/firebase.png">
 
 
+
+============================================================================
 
 <H1>Development</H1>
 <h2>
