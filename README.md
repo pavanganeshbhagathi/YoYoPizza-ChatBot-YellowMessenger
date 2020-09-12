@@ -53,34 +53,34 @@ https://bot.dialogflow.com/bca4bf91-e57d-4af7-be6d-f0739d77c01d
 <img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat2.jpg" height=340 width=380>
 
 <h4>STEP 3: You can pick now based on your favourite Pizza (Paneer Pizza/ Chicken Pizza/ Corn Pizza/ BBQ Chicken Pizza..)</h4>
-<img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat3.png" height=340 width=380>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat3.png" height=340 width=380>
 
 <h4>STEP 4: Choose the size based on your hunger (Small, Medium, Large, Extra Large..)</h4>
-<img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat4.png" height=340 width=380>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat4.png" height=340 width=380>
 
 <h4>STEP 5: Choose your favourite Toppings (Cheese, Baby Corn, Pepperoni, Mushroom, Tomato... )</h4>
-<img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat5.png" height=340 width=380>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat5.png" height=340 width=380>
 
 <h4>STEP 6: Type OK to place your order.</h4>
-<img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat6.png" height=340 width=380>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat6.png" height=340 width=380>
 
 <h4>STEP 7: Enter your Contact details for further information (Name) </h4>
-<img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat7.png" height=340 width=380>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat7.png" height=340 width=380>
 
 <h4>STEP 8: Enter your valid Contact details for further information (Mobile) </h4>
-<img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat8.png" height=340 width=380>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat8.png" height=340 width=380>
 
 <h4>STEP 9: Enter Address details for delivery & also make a note of your Order Number displayed to check the Order Status.</h4>
-<img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat9.png" height=340 width=380>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat9.png" height=340 width=380>
 
 <h4>STEP 10: Type "Status or Order Status" to track your order. </h4>
-<img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat10.png" height=340 width=380>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat10.png" height=340 width=380>
 
 <h4>STEP 11: Enter the correct Order Number to check the status (if entered wrong, try again).</h4>
-<img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat11fails.png" height=340 width=380>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat11fails.png" height=340 width=380>
 
 <h4>STEP 12: Enter the correct Order Number to check the status.</h4>
-<img src="https://github.com/YashasreeTummala/YashasreeTummala-YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat12.png" height=340 width=380>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/chatboxflow/chat12.png" height=340 width=380>
 
 <H1>FIREBASE REALTIME DATABASE</H1>
 <h2>
