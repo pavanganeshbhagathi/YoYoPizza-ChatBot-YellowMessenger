@@ -91,3 +91,12 @@ Data is stored as JSON and synchronized in realtime to every connected client.
 <img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/firebase.png">
 
 
+
+<H1>Development</H1>
+<h2>
+How to train boat and debelopement 
+</h2>
+
+<h5>step 1: yoyo welcome</h5>
+<img src="https://github.com/pavanganeshbhagathi/YoYoPizza-ChatBot-YellowMessenger/blob/master/Document%20Images/Entity/final/yoyowelcome.png">
+
