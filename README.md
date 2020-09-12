@@ -103,19 +103,70 @@ Data is stored as JSON and synchronized in realtime to every connected client.
 how to train agent using dialogflow(google cloud)
 </h2>
 	
+<h3>Firebase</h3>
+<p>
+
+Firebase is a Backend-as-a-Service (Baas). It provides developers with a variety of tools and services to help them develop quality apps, grow their user base, and earn profit. It is built on Google’s infrastructure.
+
+Firebase is categorized as a NoSQL database program, which stores data in JSON-like documents.
+
+Firebase Key Features : 
+1. Authentication
+2. Real Time Database
+3. Hosting
+4. Test Lab
+5. Notifications 
+Note : ( In this project we use Firebase only for Real Time Database )
+
+</p>
 	
-<h3>Dialogflow<h3>
+<h3>Dialogflow</h3>
+
 <p>Dialogflow is a natural language understanding platform that makes it easy to design and integrate a conversational user interface into your mobile app, web application, device, bot, interactive voice response system, and so on. Using Dialogflow, you can provide new and engaging ways for users to interact with your product.
 
 Dialogflow can analyze multiple types of input from your customers, including text or audio inputs (like from a phone or voice recording). It can also respond to your customers in a couple of ways, either through text or with synthetic speech.
 
 Please refer this documentation : https://cloud.google.com/dialogflow/docs<p>
 	
+<h4><strong>Agent</strong></h4>
+
+<p>
+	A Dialogflow agent is a virtual agent that handles conversations with your end-users. It is a natural language understanding module that understands the nuances of human language. Dialogflow translates end-user text or audio during a conversation to structured data that your apps and services can understand. You design and build a Dialogflow agent to handle the types of conversations required for your system.
+
+A Dialogflow agent is similar to a human call center agent. You train them both to handle expected conversation scenarios, and your training does not need to be overly explicit.
+
+Please refer this article to understand what is an agent : https://cloud.google.com/dialogflow/es/docs/agents-overview
+</p>
+
+<h4><strong>Intent</strong></h4>
+<p>
+	An intent categorizes an end-user's intention for one conversation turn. For each agent, you define many intents, where your combined intents can handle a complete conversation. When an end-user writes or says something, referred to as an end-user expression, Dialogflow matches the end-user expression to the best intent in your agent. Matching an intent is also known as intent classification.
 	
-	
-	:Entity
-	:Intent
-	:fullfillment              
+please refer this documentation to understand more about intents : https://cloud.google.com/dialogflow/es/docs/intents-overview
+</p>
+
+
+<h4><strong>Entity</strong></h4>
+<p>
+Each intent parameter has a type, called the entity type, which dictates exactly how data from an end-user expression is extracted.
+
+Dialogflow provides predefined system entities that can match many common types of data. For example, there are system entities for matching dates, times, colors, email addresses, and so on. You can also create your own custom entities for matching custom data. For example, you could define a vegetable entity that can match the types of vegetables available for purchase with a grocery store agent.
+
+
+please refer this documentation to understand more about Entities : https://cloud.google.com/dialogflow/es/docs/entities-overview
+
+</p>
+
+<h4><strong>Fulfillment</strong></h4>
+
+<p>
+	By default, your agent responds to a matched intent with a static response. If you're using one of the integration options, you can provide a more dynamic response by using fulfillment. When you enable fulfillment for an intent, Dialogflow responds to that intent by calling a service that you define. For example, if an end-user wants to schedule a haircut on Friday, your service can check your database and respond to the end-user with availability information for Friday.
+
+Each intent has a setting to enable fulfillment. If an intent requires some action by your system or a dynamic response, you should enable fulfillment for the intent. If an intent without fulfillment enabled is matched, Dialogflow uses the static response you defined for the intent.
+
+please refer this documentation to understand more about Fulfillment : https://cloud.google.com/dialogflow/es/docs/fulfillment-overview
+</p>
+	          
 	
 	
 
@@ -128,6 +179,7 @@ Please refer this documentation : https://cloud.google.com/dialogflow/docs<p>
 <h5>step 2 :</h5>
 <h5>step 3 :</h5>
 <h5>step 4 :</h5>
+
 
 
 
